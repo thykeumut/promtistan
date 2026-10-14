@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Duvar Kağıdı — Bulutlu Gökyüzü ve Stadyum Çatısı">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(120 .5 .5)">
+      <stop offset="0" stop-color="#0d1a2a"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#111827" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#111827" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <path d="M251 -160 L35 960 L467 960 Z" fill="#111827" opacity="0.07"/><path d="M251 -160 L-73 960 L575 960 Z" fill="#38bdf8" opacity="0.07"/><path d="M251 -160 L-181 960 L683 960 Z" fill="#111827" opacity="0.05"/><path d="M251 -160 L-289 960 L791 960 Z" fill="#38bdf8" opacity="0.12"/><path d="M251 -160 L-397 960 L899 960 Z" fill="#111827" opacity="0.07"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="482" cy="578" rx="380" ry="150" fill="#38bdf8" opacity=".18" filter="url(#soften)"/>
+
+  <g transform="translate(600 400) rotate(6.5) scale(-1.027 1.062) translate(-600 -400)"><g>
+        <rect x="198" y="229" width="933" height="447" rx="26" fill="rgba(6,12,22,.72)" stroke="rgba(255,255,255,.42)" stroke-width="3"/>
+        <rect x="224" y="255" width="881" height="395" rx="16" fill="rgba(4,9,18,.55)"/>
+        <g fill="#38bdf8" opacity=".5"><path d="M198 614 C441 453 665 506 889 408 L1132 408 L1132 676 Z"</g>
+        <circle cx="366" cy="354" r="79" fill="#111827" opacity=".3"/>
+        <rect x="258" y="283" width="38" height="38" rx="10" fill="#fff" opacity="0.25"/><rect x="322" y="283" width="38" height="38" rx="10" fill="#fff" opacity="0.21"/><rect x="386" y="283" width="38" height="38" rx="10" fill="#fff" opacity="0.14"/><rect x="258" y="345" width="38" height="38" rx="10" fill="#fff" opacity="0.19"/><rect x="322" y="345" width="38" height="38" rx="10" fill="#fff" opacity="0.23"/><rect x="386" y="345" width="38" height="38" rx="10" fill="#fff" opacity="0.27"/><rect x="258" y="407" width="38" height="38" rx="10" fill="#fff" opacity="0.17"/><rect x="322" y="407" width="38" height="38" rx="10" fill="#fff" opacity="0.24"/><rect x="386" y="407" width="38" height="38" rx="10" fill="#fff" opacity="0.22"/><rect x="258" y="469" width="38" height="38" rx="10" fill="#fff" opacity="0.18"/><rect x="322" y="469" width="38" height="38" rx="10" fill="#fff" opacity="0.21"/><rect x="386" y="469" width="38" height="38" rx="10" fill="#fff" opacity="0.22"/>
+        <rect x="712" y="319" width="336" height="178" rx="14" fill="rgba(10,20,34,.6)" stroke="rgba(255,255,255,.3)" stroke-width="2"/><rect x="734" y="373" width="336" height="168" rx="14" fill="rgba(10,20,34,.6)" stroke="rgba(255,255,255,.3)" stroke-width="2"/><rect x="756" y="427" width="336" height="199" rx="14" fill="rgba(10,20,34,.6)" stroke="rgba(255,255,255,.3)" stroke-width="2"/><rect x="778" y="481" width="336" height="189" rx="14" fill="rgba(10,20,34,.6)" stroke="rgba(255,255,255,.3)" stroke-width="2"/>
+        <rect x="520" y="698" width="160" height="20" rx="10" fill="rgba(255,255,255,.28)"/>
+        <rect x="450" y="718" width="300" height="12" rx="6" fill="rgba(255,255,255,.16)"/>
+      </g></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="488" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#38bdf8"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">BILGISAYAR &amp; TELEFON DUVAR KAĞIDI</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Duvar Kağıdı — Bulutlu Gökyüzü ve</tspan><tspan x="60" y="628.5">Stadyum Çatısı</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#38bdf8"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · BAŞLANGIÇ</text>
+    <text x="778" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">DUVAR KAĞIDI  ·  GÖKYÜZÜ</text>
+  </g>
+</svg>

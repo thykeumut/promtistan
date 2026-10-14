@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Gotik Vampir Şatosu &amp; Fırtınalı Dolunay">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(122 .5 .5)">
+      <stop offset="0" stop-color="#1d1730"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#ec4899" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <path d="M959 -160 L743 960 L1175 960 Z" fill="#ec4899" opacity="0.08"/><path d="M959 -160 L653 960 L1265 960 Z" fill="#8b5cf6" opacity="0.06"/><path d="M959 -160 L563 960 L1355 960 Z" fill="#ec4899" opacity="0.10"/><path d="M959 -160 L473 960 L1445 960 Z" fill="#8b5cf6" opacity="0.08"/><path d="M959 -160 L383 960 L1535 960 Z" fill="#ec4899" opacity="0.12"/><path d="M959 -160 L293 960 L1625 960 Z" fill="#8b5cf6" opacity="0.09"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="804" cy="609" rx="380" ry="150" fill="#8b5cf6" opacity=".18" filter="url(#soften)"/>
+
+  <g><path d="M702.4,353.8 L637.1,316.1 L637.1,240.7 L702.4,203.1 L767.6,240.7 L767.6,316.1 Z" fill="#ec4899" opacity="0.65" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M595.6,354.0 L502.1,300.0 L502.1,192.1 L595.6,138.1 L689.1,192.1 L689.1,300.0 Z" fill="#8b5cf6" opacity="0.42" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M390.8,415.7 L292.0,358.7 L292.0,244.7 L390.8,187.6 L489.5,244.7 L489.5,358.7 Z" fill="#ec4899" opacity="0.27" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M555.6,481.3 L499.1,448.8 L499.1,383.6 L555.6,351.0 L612.0,383.6 L612.0,448.8 Z" fill="#8b5cf6" opacity="0.71" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M748.4,358.8 L673.9,315.8 L673.9,229.7 L748.4,186.7 L822.9,229.7 L822.9,315.8 Z" fill="#ec4899" opacity="0.50" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M547.5,410.5 L457.5,358.6 L457.5,254.6 L547.5,202.7 L637.5,254.6 L637.5,358.6 Z" fill="#8b5cf6" opacity="0.27" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M603.6,425.0 L484.0,356.0 L484.0,217.9 L603.6,148.9 L723.2,217.9 L723.2,356.0 Z" fill="#ec4899" opacity="0.63" stroke="rgba(255,255,255,.4)" stroke-width="2"/></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="303" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#8b5cf6"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">OYUN &amp; KONSEPT SANAT</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Gotik Vampir Şatosu &amp; Fırtınalı</tspan><tspan x="60" y="628.5">Dolunay</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#8b5cf6"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · İLERI DÜZEY</text>
+    <text x="758" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">GOTIK ŞATO  ·  CASTLEVANIA</text>
+  </g>
+</svg>

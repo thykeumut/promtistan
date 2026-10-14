@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Dinamik Kaleci / Aksiyon Posteri — Süper Kahraman Duruşu">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(120 .5 .5)">
+      <stop offset="0" stop-color="#16220f"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#f43f5e" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <path d="M-80 445 C336 215 744 674 1280 563 L1280 633 C744 744 336 285 -80 515 Z" fill="#3b82f6" opacity="0.11"/><path d="M-80 531 C336 367 744 695 1280 581 L1280 651 C744 765 336 437 -80 601 Z" fill="#f43f5e" opacity="0.16"/><path d="M-80 511 C336 409 744 612 1280 509 L1280 579 C744 682 336 479 -80 581 Z" fill="#3b82f6" opacity="0.11"/><path d="M-80 364 C336 225 744 503 1280 388 L1280 458 C744 573 336 295 -80 434 Z" fill="#f43f5e" opacity="0.10"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="311" cy="608" rx="380" ry="150" fill="#f43f5e" opacity=".18" filter="url(#soften)"/>
+
+  <g transform="translate(600 400) rotate(-4.3) scale(1.160 1.107) translate(-600 -400)"><g>
+        <path d="M193 150 L63 620 L131 620 Z" fill="#f43f5e" opacity="0.30"/><path d="M643 150 L513 620 L581 620 Z" fill="#3b82f6" opacity="0.20"/><path d="M1092 150 L962 620 L1030 620 Z" fill="#f43f5e" opacity="0.29"/>
+        <ellipse cx="623" cy="470" rx="464" ry="150" fill="#f43f5e" opacity=".12" filter="url(#soften)"/>
+        <path d="M170 470 C170 366 320 300 600 300 C880 300 1030 366 1030 470" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="3"/>
+        <path d="M140 500 C140 380 320 306 600 306 C880 306 1060 380 1060 500" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="2"/>
+        <rect x="240" y="430" width="720" height="16" rx="4" fill="rgba(255,255,255,0.120)"/><rect x="295" y="448" width="610" height="16" rx="4" fill="rgba(255,255,255,0.095)"/><rect x="350" y="466" width="500" height="16" rx="4" fill="rgba(255,255,255,0.070)"/>
+        <circle cx="292" cy="519" r="9.6" fill="#fff" opacity="0.20"/><circle cx="764" cy="514" r="7.5" fill="#fff" opacity="0.06"/><circle cx="687" cy="431" r="4.6" fill="#fff" opacity="0.15"/><circle cx="184" cy="486" r="4.2" fill="#fff" opacity="0.16"/><circle cx="882" cy="445" r="4.0" fill="#fff" opacity="0.07"/><circle cx="244" cy="482" r="6.3" fill="#fff" opacity="0.15"/><circle cx="962" cy="508" r="9.9" fill="#fff" opacity="0.10"/><circle cx="365" cy="457" r="4.1" fill="#fff" opacity="0.20"/><circle cx="369" cy="522" r="4.8" fill="#fff" opacity="0.21"/><circle cx="258" cy="480" r="4.0" fill="#fff" opacity="0.21"/><circle cx="591" cy="507" r="4.2" fill="#fff" opacity="0.14"/><circle cx="892" cy="471" r="5.9" fill="#fff" opacity="0.19"/><circle cx="524" cy="498" r="7.5" fill="#fff" opacity="0.23"/><circle cx="648" cy="434" r="9.8" fill="#fff" opacity="0.07"/><circle cx="1001" cy="468" r="7.7" fill="#fff" opacity="0.23"/><circle cx="373" cy="479" r="7.1" fill="#fff" opacity="0.12"/><circle cx="970" cy="490" r="6.8" fill="#fff" opacity="0.18"/><circle cx="963" cy="469" r="9.9" fill="#fff" opacity="0.21"/><circle cx="932" cy="446" r="6.5" fill="#fff" opacity="0.21"/><circle cx="897" cy="474" r="3.8" fill="#fff" opacity="0.09"/><circle cx="564" cy="456" r="3.8" fill="#fff" opacity="0.07"/><circle cx="670" cy="466" r="4.7" fill="#fff" opacity="0.23"/><circle cx="868" cy="459" r="6.7" fill="#fff" opacity="0.16"/><circle cx="212" cy="463" r="5.9" fill="#fff" opacity="0.19"/><circle cx="525" cy="466" r="9.1" fill="#fff" opacity="0.23"/><circle cx="741" cy="495" r="7.3" fill="#fff" opacity="0.14"/><circle cx="987" cy="443" r="6.7" fill="#fff" opacity="0.07"/><circle cx="834" cy="451" r="3.7" fill="#fff" opacity="0.08"/><circle cx="715" cy="442" r="9.2" fill="#fff" opacity="0.16"/><circle cx="642" cy="453" r="5.7" fill="#fff" opacity="0.21"/><circle cx="960" cy="521" r="4.4" fill="#fff" opacity="0.18"/><circle cx="398" cy="470" r="8.4" fill="#fff" opacity="0.17"/><circle cx="755" cy="489" r="7.5" fill="#fff" opacity="0.15"/><circle cx="672" cy="454" r="5.3" fill="#fff" opacity="0.23"/><circle cx="896" cy="459" r="3.1" fill="#fff" opacity="0.08"/><circle cx="986" cy="507" r="6.0" fill="#fff" opacity="0.12"/><circle cx="340" cy="484" r="4.7" fill="#fff" opacity="0.22"/><circle cx="495" cy="465" r="6.4" fill="#fff" opacity="0.17"/><circle cx="669" cy="498" r="3.6" fill="#fff" opacity="0.14"/><circle cx="832" cy="510" r="9.3" fill="#fff" opacity="0.24"/><circle cx="268" cy="477" r="6.8" fill="#fff" opacity="0.20"/><circle cx="690" cy="442" r="7.0" fill="#fff" opacity="0.13"/><circle cx="414" cy="469" r="6.8" fill="#fff" opacity="0.07"/><circle cx="585" cy="453" r="8.7" fill="#fff" opacity="0.24"/><circle cx="417" cy="464" r="6.0" fill="#fff" opacity="0.07"/><circle cx="962" cy="525" r="5.1" fill="#fff" opacity="0.14"/><circle cx="759" cy="446" r="5.5" fill="#fff" opacity="0.24"/><circle cx="695" cy="465" r="8.5" fill="#fff" opacity="0.13"/><circle cx="888" cy="473" r="6.8" fill="#fff" opacity="0.10"/><circle cx="300" cy="505" r="6.0" fill="#fff" opacity="0.16"/><circle cx="977" cy="468" r="7.7" fill="#fff" opacity="0.21"/><circle cx="780" cy="495" r="8.9" fill="#fff" opacity="0.24"/><circle cx="802" cy="494" r="9.2" fill="#fff" opacity="0.16"/><circle cx="413" cy="504" r="8.7" fill="#fff" opacity="0.18"/><circle cx="857" cy="460" r="5.0" fill="#fff" opacity="0.23"/><circle cx="766" cy="453" r="9.6" fill="#fff" opacity="0.15"/><circle cx="876" cy="495" r="9.4" fill="#fff" opacity="0.11"/><circle cx="291" cy="434" r="7.6" fill="#fff" opacity="0.13"/><circle cx="226" cy="470" r="8.2" fill="#fff" opacity="0.11"/>
+        <g transform="translate(623,239) scale(1.23)">
+          <path d="M-78 -44 H78 V-6 C78 26 44 52 0 62 C-44 52 -78 26 -78 -6 Z" fill="#f43f5e" opacity=".92"/>
+          <path d="M-78 -44 H78 V-6 C78 26 44 52 0 62 C-44 52 -78 26 -78 -6 Z" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="3"/>
+          <path d="M-52 -44 C-30 -76 30 -76 52 -44" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="0" cy="-2" r="20" fill="rgba(9,14,10,.6)" stroke="rgba(255,255,255,.5)" stroke-width="2"/>
+        </g>
+        <circle cx="594" cy="636" r="30" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.4)" stroke-width="2"/>
+        <path d="M594 616 l16 12 -6 20 -20 0 -6 -20 z" fill="#3b82f6" opacity=".7"/>
+      </g></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="360" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#f43f5e"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">FUTBOL MATCHDAY &amp; POSTER</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="50" font-weight="800" fill="#ffffff"><tspan x="60" y="568.0">Dinamik Kaleci / Aksiyon Posteri — Süper</tspan><tspan x="60" y="624.0">Kahraman Duruşu</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#f43f5e"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · İLERI DÜZEY</text>
+    <text x="837" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">AKSIYON  ·  KALECI</text>
+  </g>
+</svg>

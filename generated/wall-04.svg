@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Kuzey Işıkları (Aurora Borealis) &amp; Karlı Dağlar">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(118 .5 .5)">
+      <stop offset="0" stop-color="#22162c"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#ec4899" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#6366f1" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <circle cx="593" cy="671" r="209" fill="#6366f1" opacity="0.16" filter="url(#soften)"/><circle cx="117" cy="604" r="474" fill="#ec4899" opacity="0.10" filter="url(#soften)"/><circle cx="148" cy="643" r="446" fill="#6366f1" opacity="0.16" filter="url(#soften)"/><circle cx="318" cy="623" r="512" fill="#ec4899" opacity="0.09" filter="url(#soften)"/><circle cx="936" cy="329" r="374" fill="#6366f1" opacity="0.13" filter="url(#soften)"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="331" cy="694" rx="380" ry="150" fill="#ec4899" opacity=".18" filter="url(#soften)"/>
+
+  <g>
+        <circle cx="600" cy="300" r="128" fill="#ec4899" opacity=".55"/>
+        <circle cx="600" cy="300" r="128" fill="none" stroke="rgba(255,255,255,.9)" stroke-width="2" opacity=".5"/>
+        <circle cx="522" cy="286" r="112" fill="#22162c"/>
+        <ellipse cx="600" cy="520" rx="420" ry="60" fill="#6366f1" opacity=".22"/>
+        <circle cx="188" cy="177" r="2.4" fill="#fff" opacity="0.74"/><circle cx="742" cy="225" r="2.1" fill="#fff" opacity="0.52"/><circle cx="675" cy="355" r="2.4" fill="#fff" opacity="0.44"/><circle cx="456" cy="313" r="3.1" fill="#fff" opacity="0.68"/><circle cx="666" cy="454" r="3.7" fill="#fff" opacity="0.56"/><circle cx="941" cy="171" r="3.8" fill="#fff" opacity="0.62"/><circle cx="912" cy="418" r="2.8" fill="#fff" opacity="0.74"/><circle cx="231" cy="261" r="1.9" fill="#fff" opacity="0.61"/><circle cx="449" cy="423" r="3.6" fill="#fff" opacity="0.46"/><circle cx="1023" cy="163" r="4.0" fill="#fff" opacity="0.55"/><circle cx="1063" cy="308" r="3.6" fill="#fff" opacity="0.43"/><circle cx="652" cy="263" r="1.8" fill="#fff" opacity="0.44"/><circle cx="761" cy="380" r="3.8" fill="#fff" opacity="0.24"/><circle cx="966" cy="438" r="2.2" fill="#fff" opacity="0.57"/><circle cx="196" cy="341" r="4.4" fill="#fff" opacity="0.39"/><circle cx="659" cy="283" r="4.3" fill="#fff" opacity="0.26"/><circle cx="1160" cy="170" r="1.9" fill="#fff" opacity="0.44"/><circle cx="912" cy="161" r="4.4" fill="#fff" opacity="0.72"/><circle cx="468" cy="191" r="3.7" fill="#fff" opacity="0.25"/><circle cx="616" cy="214" r="3.5" fill="#fff" opacity="0.44"/><circle cx="732" cy="292" r="4.5" fill="#fff" opacity="0.74"/><circle cx="562" cy="415" r="2.5" fill="#fff" opacity="0.73"/><circle cx="418" cy="445" r="1.9" fill="#fff" opacity="0.79"/><circle cx="969" cy="373" r="3.2" fill="#fff" opacity="0.30"/><circle cx="531" cy="425" r="2.8" fill="#fff" opacity="0.50"/><circle cx="1005" cy="298" r="1.9" fill="#fff" opacity="0.29"/>
+      </g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="303" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#ec4899"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">DUVAR KAĞIDI &amp; LO-FI</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Kuzey Işıkları (Aurora Borealis) &amp;</tspan><tspan x="60" y="628.5">Karlı Dağlar</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#ec4899"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · ORTA</text>
+    <text x="698" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">KUZEY IŞIKLARI  ·  AURORA BOREALIS</text>
+  </g>
+</svg>

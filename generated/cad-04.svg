@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Çift Renkli Katmanlı Kesit (50% Cutaway Section)">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(124 .5 .5)">
+      <stop offset="0" stop-color="#101d2e"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#1e40af" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#1e40af" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <polygon points="489,503 413,488 421,411 496,426" fill="#1e40af" opacity="0.13"/><polygon points="295,189 263,282 168,259 200,166" fill="#0ea5e9" opacity="0.10"/><polygon points="438,538 576,481 645,613 507,670" fill="#1e40af" opacity="0.11"/><polygon points="1181,575 1204,787 995,830 972,618" fill="#0ea5e9" opacity="0.16"/><polygon points="1214,127 1145,225 1041,166 1110,68" fill="#1e40af" opacity="0.11"/><polygon points="443,78 365,49 387,-32 465,-3" fill="#0ea5e9" opacity="0.06"/><polygon points="1315,484 1167,567 1070,428 1218,345" fill="#1e40af" opacity="0.07"/><polygon points="1077,626 1171,809 998,921 903,738" fill="#0ea5e9" opacity="0.15"/><polygon points="-48,432 -15,350 70,376 36,458" fill="#1e40af" opacity="0.08"/><polygon points="234,522 231,439 314,428 317,511" fill="#0ea5e9" opacity="0.08"/><polygon points="785,343 834,203 979,237 930,378" fill="#1e40af" opacity="0.10"/><polygon points="428,394 501,466 437,545 363,474" fill="#0ea5e9" opacity="0.09"/><polygon points="390,292 369,219 440,191 461,264" fill="#1e40af" opacity="0.17"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="543" cy="629" rx="380" ry="150" fill="#0ea5e9" opacity=".18" filter="url(#soften)"/>
+
+  <g>
+        <rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(0 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(30 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(60 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(90 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(120 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(150 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(180 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(210 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(240 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(270 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(300 600 340)"/><rect x="586" y="132" width="28" height="52" rx="6" fill="rgba(255,255,255,.4)" transform="rotate(330 600 340)"/>
+        <circle cx="600" cy="340" r="164" fill="rgba(8,14,24,.7)" stroke="#0ea5e9" stroke-width="6"/>
+        <circle cx="600" cy="340" r="96" fill="none" stroke="rgba(255,255,255,.4)" stroke-width="3" stroke-dasharray="14 10"/>
+        <circle cx="600" cy="340" r="42" fill="#1e40af" opacity=".85"/>
+        <path d="M420 540 h360" stroke="rgba(255,255,255,.4)" stroke-width="2"/>
+        <path d="M420 566 h250" stroke="rgba(255,255,255,.4)" stroke-width="2" opacity=".6"/>
+        <path d="M420 592 h300" stroke="rgba(255,255,255,.4)" stroke-width="2" opacity=".4"/>
+        <path d="M452 232 h-52 v216 h52" fill="none" stroke="#0ea5e9" stroke-width="3" opacity=".8"/>
+      </g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="275" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#0ea5e9"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">CAD &amp; TEKNIK ÇIZIM</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Çift Renkli Katmanlı Kesit (50%</tspan><tspan x="60" y="628.5">Cutaway Section)</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#0ea5e9"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · UZMAN / MASTER</text>
+    <text x="840" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">KESIT  ·  CUTAWAY</text>
+  </g>
+</svg>

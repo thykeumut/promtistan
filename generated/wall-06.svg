@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Geometrik Neon Hologram Tüneli (Abstract Sci-Fi)">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(139 .5 .5)">
+      <stop offset="0" stop-color="#22162c"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#ec4899" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#6366f1" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <path d="M-300 1000 L-158 1000 L462 -200 L320 -200 Z" fill="#6366f1" opacity="0.12"/><path d="M78 1000 L224 1000 L844 -200 L698 -200 Z" fill="#ec4899" opacity="0.06"/><path d="M315 1000 L544 1000 L1164 -200 L935 -200 Z" fill="#6366f1" opacity="0.17"/><path d="M481 1000 L738 1000 L1358 -200 L1101 -200 Z" fill="#ec4899" opacity="0.08"/><path d="M767 1000 L905 1000 L1525 -200 L1387 -200 Z" fill="#6366f1" opacity="0.10"/><path d="M1491 1000 L1583 1000 L2203 -200 L2111 -200 Z" fill="#ec4899" opacity="0.08"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="834" cy="683" rx="380" ry="150" fill="#ec4899" opacity=".18" filter="url(#soften)"/>
+
+  <g>
+        <circle cx="600" cy="300" r="128" fill="#ec4899" opacity=".55"/>
+        <circle cx="600" cy="300" r="128" fill="none" stroke="rgba(255,255,255,.9)" stroke-width="2" opacity=".5"/>
+        <circle cx="522" cy="286" r="112" fill="#22162c"/>
+        <ellipse cx="600" cy="520" rx="420" ry="60" fill="#6366f1" opacity=".22"/>
+        <circle cx="610" cy="410" r="1.9" fill="#fff" opacity="0.33"/><circle cx="166" cy="328" r="2.7" fill="#fff" opacity="0.78"/><circle cx="1136" cy="319" r="2.7" fill="#fff" opacity="0.47"/><circle cx="96" cy="259" r="2.0" fill="#fff" opacity="0.40"/><circle cx="569" cy="305" r="2.6" fill="#fff" opacity="0.55"/><circle cx="501" cy="156" r="4.4" fill="#fff" opacity="0.68"/><circle cx="580" cy="209" r="2.1" fill="#fff" opacity="0.43"/><circle cx="1037" cy="198" r="2.4" fill="#fff" opacity="0.64"/><circle cx="407" cy="408" r="4.3" fill="#fff" opacity="0.33"/><circle cx="228" cy="443" r="2.0" fill="#fff" opacity="0.44"/><circle cx="637" cy="355" r="4.1" fill="#fff" opacity="0.47"/><circle cx="1087" cy="222" r="3.0" fill="#fff" opacity="0.75"/><circle cx="570" cy="404" r="3.6" fill="#fff" opacity="0.75"/><circle cx="643" cy="456" r="3.6" fill="#fff" opacity="0.69"/><circle cx="893" cy="424" r="1.6" fill="#fff" opacity="0.33"/><circle cx="546" cy="366" r="4.5" fill="#fff" opacity="0.52"/><circle cx="425" cy="291" r="1.8" fill="#fff" opacity="0.74"/><circle cx="1082" cy="345" r="2.2" fill="#fff" opacity="0.62"/><circle cx="307" cy="399" r="4.3" fill="#fff" opacity="0.52"/><circle cx="39" cy="265" r="2.3" fill="#fff" opacity="0.43"/><circle cx="804" cy="313" r="3.1" fill="#fff" opacity="0.58"/><circle cx="737" cy="306" r="3.7" fill="#fff" opacity="0.38"/><circle cx="474" cy="249" r="3.8" fill="#fff" opacity="0.21"/><circle cx="133" cy="458" r="3.5" fill="#fff" opacity="0.67"/><circle cx="855" cy="350" r="3.6" fill="#fff" opacity="0.20"/><circle cx="869" cy="382" r="1.8" fill="#fff" opacity="0.41"/>
+      </g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="303" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#ec4899"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">DUVAR KAĞIDI &amp; LO-FI</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Geometrik Neon Hologram Tüneli</tspan><tspan x="60" y="628.5">(Abstract Sci-Fi)</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#ec4899"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · ORTA</text>
+    <text x="802" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">NEON TÜNEL  ·  ALTIGEN</text>
+  </g>
+</svg>

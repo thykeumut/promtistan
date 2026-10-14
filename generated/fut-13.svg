@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="İmza Anı Posteri — Transfer Masası">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(136 .5 .5)">
+      <stop offset="0" stop-color="#16220f"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#0d9488" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#0d9488" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#fef3c7" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#fef3c7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <circle cx="336" cy="251" r="439" fill="#fef3c7" opacity="0.11" filter="url(#soften)"/><circle cx="552" cy="536" r="205" fill="#0d9488" opacity="0.13" filter="url(#soften)"/><circle cx="178" cy="677" r="513" fill="#fef3c7" opacity="0.16" filter="url(#soften)"/><circle cx="976" cy="567" r="451" fill="#0d9488" opacity="0.15" filter="url(#soften)"/><circle cx="965" cy="603" r="232" fill="#fef3c7" opacity="0.16" filter="url(#soften)"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="642" cy="692" rx="380" ry="150" fill="#0d9488" opacity=".18" filter="url(#soften)"/>
+
+  <g transform="translate(600 400) rotate(13.7) scale(-1.138 1.055) translate(-600 -400)"><g>
+        <path d="M156 150 L26 620 L94 620 Z" fill="#0d9488" opacity="0.19"/><path d="M355 150 L225 620 L293 620 Z" fill="#fef3c7" opacity="0.24"/><path d="M555 150 L425 620 L493 620 Z" fill="#0d9488" opacity="0.14"/><path d="M755 150 L625 620 L693 620 Z" fill="#fef3c7" opacity="0.21"/><path d="M955 150 L825 620 L893 620 Z" fill="#0d9488" opacity="0.19"/>
+        <ellipse cx="586" cy="470" rx="450" ry="150" fill="#0d9488" opacity=".12" filter="url(#soften)"/>
+        <path d="M170 470 C170 366 320 300 600 300 C880 300 1030 366 1030 470" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="3"/>
+        <path d="M140 500 C140 380 320 306 600 306 C880 306 1060 380 1060 500" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="2"/>
+        <rect x="240" y="430" width="720" height="16" rx="4" fill="rgba(255,255,255,0.120)"/><rect x="295" y="448" width="610" height="16" rx="4" fill="rgba(255,255,255,0.095)"/><rect x="350" y="466" width="500" height="16" rx="4" fill="rgba(255,255,255,0.070)"/>
+        <circle cx="415" cy="431" r="3.0" fill="#fff" opacity="0.23"/><circle cx="506" cy="453" r="7.6" fill="#fff" opacity="0.22"/><circle cx="215" cy="476" r="6.2" fill="#fff" opacity="0.13"/><circle cx="457" cy="452" r="7.2" fill="#fff" opacity="0.24"/><circle cx="345" cy="515" r="9.0" fill="#fff" opacity="0.24"/><circle cx="231" cy="435" r="8.7" fill="#fff" opacity="0.19"/><circle cx="381" cy="493" r="3.9" fill="#fff" opacity="0.08"/><circle cx="604" cy="508" r="5.8" fill="#fff" opacity="0.22"/><circle cx="375" cy="456" r="3.5" fill="#fff" opacity="0.14"/><circle cx="689" cy="437" r="8.6" fill="#fff" opacity="0.08"/><circle cx="406" cy="485" r="3.5" fill="#fff" opacity="0.09"/><circle cx="215" cy="508" r="9.6" fill="#fff" opacity="0.18"/><circle cx="924" cy="454" r="5.1" fill="#fff" opacity="0.17"/><circle cx="828" cy="444" r="5.6" fill="#fff" opacity="0.09"/><circle cx="536" cy="433" r="3.2" fill="#fff" opacity="0.23"/><circle cx="389" cy="438" r="8.0" fill="#fff" opacity="0.17"/><circle cx="810" cy="487" r="6.4" fill="#fff" opacity="0.16"/><circle cx="926" cy="463" r="7.5" fill="#fff" opacity="0.22"/><circle cx="782" cy="458" r="4.2" fill="#fff" opacity="0.22"/><circle cx="961" cy="443" r="8.6" fill="#fff" opacity="0.24"/><circle cx="795" cy="449" r="7.9" fill="#fff" opacity="0.07"/><circle cx="835" cy="492" r="5.8" fill="#fff" opacity="0.05"/><circle cx="375" cy="483" r="5.5" fill="#fff" opacity="0.17"/><circle cx="186" cy="485" r="6.5" fill="#fff" opacity="0.10"/><circle cx="476" cy="491" r="7.8" fill="#fff" opacity="0.13"/><circle cx="890" cy="448" r="10.0" fill="#fff" opacity="0.09"/><circle cx="725" cy="478" r="6.2" fill="#fff" opacity="0.24"/><circle cx="517" cy="524" r="7.6" fill="#fff" opacity="0.18"/><circle cx="540" cy="448" r="8.5" fill="#fff" opacity="0.21"/><circle cx="189" cy="501" r="3.6" fill="#fff" opacity="0.05"/><circle cx="368" cy="445" r="9.9" fill="#fff" opacity="0.09"/><circle cx="198" cy="465" r="8.8" fill="#fff" opacity="0.16"/><circle cx="743" cy="470" r="7.6" fill="#fff" opacity="0.13"/><circle cx="428" cy="498" r="9.4" fill="#fff" opacity="0.06"/><circle cx="618" cy="496" r="6.4" fill="#fff" opacity="0.18"/><circle cx="544" cy="467" r="7.0" fill="#fff" opacity="0.22"/><circle cx="302" cy="470" r="4.4" fill="#fff" opacity="0.22"/><circle cx="662" cy="512" r="8.4" fill="#fff" opacity="0.21"/><circle cx="990" cy="524" r="7.9" fill="#fff" opacity="0.09"/><circle cx="336" cy="508" r="8.7" fill="#fff" opacity="0.22"/><circle cx="550" cy="465" r="6.7" fill="#fff" opacity="0.07"/><circle cx="828" cy="452" r="3.5" fill="#fff" opacity="0.18"/><circle cx="518" cy="469" r="3.3" fill="#fff" opacity="0.17"/><circle cx="405" cy="503" r="7.8" fill="#fff" opacity="0.23"/><circle cx="183" cy="461" r="5.1" fill="#fff" opacity="0.16"/><circle cx="524" cy="458" r="3.4" fill="#fff" opacity="0.24"/>
+        <g transform="translate(586,250) scale(1.12)">
+          <path d="M-78 -44 H78 V-6 C78 26 44 52 0 62 C-44 52 -78 26 -78 -6 Z" fill="#0d9488" opacity=".92"/>
+          <path d="M-78 -44 H78 V-6 C78 26 44 52 0 62 C-44 52 -78 26 -78 -6 Z" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="3"/>
+          <path d="M-52 -44 C-30 -76 30 -76 52 -44" fill="none" stroke="#fef3c7" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="0" cy="-2" r="20" fill="rgba(9,14,10,.6)" stroke="rgba(255,255,255,.5)" stroke-width="2"/>
+        </g>
+        <circle cx="510" cy="637" r="30" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.4)" stroke-width="2"/>
+        <path d="M510 617 l16 12 -6 20 -20 0 -6 -20 z" fill="#fef3c7" opacity=".7"/>
+      </g></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="360" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#0d9488"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">FUTBOL MATCHDAY &amp; POSTER</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="68" font-weight="800" fill="#ffffff"><tspan x="60" y="557.9">İmza Anı Posteri — Transfer</tspan><tspan x="60" y="634.1">Masası</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#0d9488"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · BAŞLANGIÇ</text>
+    <text x="776" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">İMZA TÖRENI  ·  TRANSFER</text>
+  </g>
+</svg>

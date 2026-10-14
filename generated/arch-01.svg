@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Klasik Prusya Mavisi Mimari Blueprint (Kat Planı &amp; Kesit)">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(141 .5 .5)">
+      <stop offset="0" stop-color="#0d1f2a"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#64748b" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#64748b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <ellipse cx="839" cy="111" rx="220" ry="125" fill="none" stroke="#64748b" stroke-width="4.0" opacity="0.23"/><ellipse cx="839" cy="111" rx="355" ry="168" fill="none" stroke="#06b6d4" stroke-width="4.4" opacity="0.13"/><ellipse cx="839" cy="111" rx="578" ry="256" fill="none" stroke="#64748b" stroke-width="4.2" opacity="0.13"/><ellipse cx="839" cy="111" rx="622" ry="329" fill="none" stroke="#06b6d4" stroke-width="3.7" opacity="0.16"/><ellipse cx="839" cy="111" rx="828" ry="473" fill="none" stroke="#64748b" stroke-width="2.0" opacity="0.23"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="421" cy="575" rx="380" ry="150" fill="#06b6d4" opacity=".18" filter="url(#soften)"/>
+
+  <g>
+        <rect x="286" y="176" width="628" height="392" fill="rgba(6,26,40,.55)" stroke="#06b6d4" stroke-width="3"/>
+        <g stroke="rgba(255,255,255,.4)" stroke-width="2" fill="none">
+          <path d="M330 512 L330 320 L520 320 L520 250 L740 250 L740 320 L868 320 L868 512 Z"/>
+          <path d="M520 320 L520 512 M740 320 L740 512"/>
+          <rect x="560" y="360" width="140" height="152" fill="#06b6d4" opacity=".16"/>
+          <path d="M330 560 L868 560"/>
+        </g>
+        <g stroke="#06b6d4" stroke-width="2" opacity=".8">
+          <path d="M330 540 L330 560 M520 540 L520 560 M740 540 L740 560 M868 540 L868 560"/>
+        </g>
+        <g fill="rgba(255,255,255,.4)">
+          <rect x="352" y="392" width="140" height="6" rx="3"/><rect x="352" y="410" width="128" height="6" rx="3"/><rect x="352" y="428" width="116" height="6" rx="3"/><rect x="352" y="446" width="104" height="6" rx="3"/><rect x="352" y="464" width="92" height="6" rx="3"/><rect x="352" y="482" width="80" height="6" rx="3"/><rect x="352" y="500" width="68" height="6" rx="3"/>
+        </g>
+        <circle cx="868" cy="216" r="26" fill="none" stroke="#06b6d4" stroke-width="2"/>
+        <path d="M856 216 h24 M868 204 v24" stroke="#06b6d4" stroke-width="2"/>
+      </g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="260" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#06b6d4"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">BLUEPRINT &amp; PAFTA</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="50" font-weight="800" fill="#ffffff"><tspan x="60" y="568.0">Klasik Prusya Mavisi Mimari Blueprint</tspan><tspan x="60" y="624.0">(Kat Planı &amp; Kesit)</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#06b6d4"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · İLERI DÜZEY</text>
+    <text x="751" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">BLUEPRINT  ·  PRUSYA MAVISI</text>
+  </g>
+</svg>

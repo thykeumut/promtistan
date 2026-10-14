@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Derin Deniz Deniz Kızı &amp; Batık Korsan Gemisi">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(127 .5 .5)">
+      <stop offset="0" stop-color="#1d1730"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#ec4899" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <rect x="232" y="215" width="136" height="585" fill="#8b5cf6" opacity="0.11"/><rect x="632" y="566" width="136" height="234" fill="#8b5cf6" opacity="0.13"/><rect x="832" y="350" width="136" height="450" fill="#ec4899" opacity="0.09"/><rect x="1032" y="332" width="136" height="468" fill="#8b5cf6" opacity="0.05"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="365" cy="616" rx="380" ry="150" fill="#8b5cf6" opacity=".18" filter="url(#soften)"/>
+
+  <g><path d="M571.5,345.9 L471.9,288.3 L471.9,173.3 L571.5,115.7 L671.2,173.3 L671.2,288.3 Z" fill="#ec4899" opacity="0.72" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M649.6,523.8 L533.2,456.6 L533.2,322.2 L649.6,255.0 L766.0,322.2 L766.0,456.6 Z" fill="#8b5cf6" opacity="0.31" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M481.0,420.2 L362.9,352.0 L362.9,215.7 L481.0,147.5 L599.1,215.7 L599.1,352.0 Z" fill="#ec4899" opacity="0.31" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M413.1,414.4 L355.2,380.9 L355.2,314.0 L413.1,280.6 L471.1,314.0 L471.1,380.9 Z" fill="#8b5cf6" opacity="0.39" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M681.4,501.4 L602.5,455.8 L602.5,364.6 L681.4,319.1 L760.4,364.6 L760.4,455.8 Z" fill="#ec4899" opacity="0.43" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M671.6,423.5 L586.4,374.4 L586.4,276.0 L671.6,226.8 L756.7,276.0 L756.7,374.4 Z" fill="#8b5cf6" opacity="0.34" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M525.9,456.3 L432.4,402.3 L432.4,294.3 L525.9,240.3 L619.5,294.3 L619.5,402.3 Z" fill="#ec4899" opacity="0.49" stroke="rgba(255,255,255,.4)" stroke-width="2"/></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="303" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#8b5cf6"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">OYUN &amp; KONSEPT SANAT</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Derin Deniz Deniz Kızı &amp; Batık</tspan><tspan x="60" y="628.5">Korsan Gemisi</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#8b5cf6"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · ORTA</text>
+    <text x="774" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">DENIZ KIZI  ·  BATIK GEMI</text>
+  </g>
+</svg>

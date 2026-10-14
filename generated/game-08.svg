@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Fütüristik Siberpunk Ramen Dükkanı (İç Mekan)">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(138 .5 .5)">
+      <stop offset="0" stop-color="#1d1730"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#ec4899" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <path d="M-300 1000 L-58 1000 L562 -200 L320 -200 Z" fill="#ec4899" opacity="0.06"/><path d="M-33 1000 L82 1000 L702 -200 L587 -200 Z" fill="#8b5cf6" opacity="0.15"/><path d="M271 1000 L462 1000 L1082 -200 L891 -200 Z" fill="#ec4899" opacity="0.11"/><path d="M766 1000 L951 1000 L1571 -200 L1386 -200 Z" fill="#8b5cf6" opacity="0.08"/><path d="M981 1000 L1112 1000 L1732 -200 L1601 -200 Z" fill="#ec4899" opacity="0.11"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="666" cy="655" rx="380" ry="150" fill="#8b5cf6" opacity=".18" filter="url(#soften)"/>
+
+  <g><path d="M410.7,326.1 L341.5,286.2 L341.5,206.3 L410.7,166.4 L479.9,206.3 L479.9,286.2 Z" fill="#ec4899" opacity="0.67" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M409.9,525.6 L291.3,457.1 L291.3,320.2 L409.9,251.7 L528.5,320.2 L528.5,457.1 Z" fill="#8b5cf6" opacity="0.50" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M724.2,512.6 L622.3,453.8 L622.3,336.0 L724.2,277.2 L826.2,336.0 L826.2,453.8 Z" fill="#ec4899" opacity="0.71" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M408.6,378.3 L332.1,334.1 L332.1,245.8 L408.6,201.6 L485.1,245.8 L485.1,334.1 Z" fill="#8b5cf6" opacity="0.39" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M742.5,420.0 L632.0,356.2 L632.0,228.6 L742.5,164.8 L853.1,228.6 L853.1,356.2 Z" fill="#ec4899" opacity="0.58" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M782.8,425.8 L717.4,388.1 L717.4,312.5 L782.8,274.8 L848.2,312.5 L848.2,388.1 Z" fill="#8b5cf6" opacity="0.37" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M507.6,352.5 L442.5,314.9 L442.5,239.6 L507.6,201.9 L572.8,239.6 L572.8,314.9 Z" fill="#ec4899" opacity="0.71" stroke="rgba(255,255,255,.4)" stroke-width="2"/></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="303" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#8b5cf6"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">OYUN &amp; KONSEPT SANAT</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Fütüristik Siberpunk Ramen Dükkanı</tspan><tspan x="60" y="628.5">(İç Mekan)</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#8b5cf6"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · ORTA</text>
+    <text x="778" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">CYBERPUNK  ·  RAMEN BAR</text>
+  </g>
+</svg>

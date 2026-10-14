@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Kıyamet Sonrası Doğa Kaplı Terk Edilmiş Metropol">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(126 .5 .5)">
+      <stop offset="0" stop-color="#1d1730"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#ec4899" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <path d="M595 -160 L379 960 L811 960 Z" fill="#ec4899" opacity="0.06"/><path d="M595 -160 L312 960 L879 960 Z" fill="#8b5cf6" opacity="0.09"/><path d="M595 -160 L244 960 L946 960 Z" fill="#ec4899" opacity="0.11"/><path d="M595 -160 L177 960 L1014 960 Z" fill="#8b5cf6" opacity="0.06"/><path d="M595 -160 L109 960 L1081 960 Z" fill="#ec4899" opacity="0.07"/><path d="M595 -160 L42 960 L1149 960 Z" fill="#8b5cf6" opacity="0.11"/><path d="M595 -160 L-26 960 L1216 960 Z" fill="#ec4899" opacity="0.06"/><path d="M595 -160 L-93 960 L1284 960 Z" fill="#8b5cf6" opacity="0.06"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="819" cy="659" rx="380" ry="150" fill="#8b5cf6" opacity=".18" filter="url(#soften)"/>
+
+  <g><path d="M545.8,314.2 L474.9,273.2 L474.9,191.3 L545.8,150.3 L616.8,191.3 L616.8,273.2 Z" fill="#ec4899" opacity="0.66" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M635.7,434.5 L543.4,381.2 L543.4,274.6 L635.7,221.3 L728.0,274.6 L728.0,381.2 Z" fill="#8b5cf6" opacity="0.68" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M690.4,529.7 L601.9,478.6 L601.9,376.3 L690.4,325.2 L779.0,376.3 L779.0,478.6 Z" fill="#ec4899" opacity="0.60" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M446.9,477.5 L392.1,445.9 L392.1,382.6 L446.9,351.0 L501.7,382.6 L501.7,445.9 Z" fill="#8b5cf6" opacity="0.49" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M529.2,538.0 L439.8,486.4 L439.8,383.2 L529.2,331.6 L618.5,383.2 L618.5,486.4 Z" fill="#ec4899" opacity="0.44" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M762.3,505.1 L657.0,444.3 L657.0,322.7 L762.3,261.9 L867.7,322.7 L867.7,444.3 Z" fill="#8b5cf6" opacity="0.64" stroke="rgba(255,255,255,.4)" stroke-width="2"/><path d="M501.1,485.6 L398.3,426.3 L398.3,307.6 L501.1,248.3 L603.8,307.6 L603.8,426.3 Z" fill="#ec4899" opacity="0.57" stroke="rgba(255,255,255,.4)" stroke-width="2"/></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="303" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#8b5cf6"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">OYUN &amp; KONSEPT SANAT</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Kıyamet Sonrası Doğa Kaplı Terk</tspan><tspan x="60" y="628.5">Edilmiş Metropol</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#8b5cf6"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · İLERI DÜZEY</text>
+    <text x="682" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">THE LAST OF US  ·  POST-APOKALIPTIK</text>
+  </g>
+</svg>

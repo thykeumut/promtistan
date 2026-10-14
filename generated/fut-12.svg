@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Kırmızı Kart &amp; Tartışma — Dramatik Editöryel">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(118 .5 .5)">
+      <stop offset="0" stop-color="#16220f"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#facc15" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#3f3f46" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#3f3f46" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <path d="M503 -160 L287 960 L719 960 Z" fill="#3f3f46" opacity="0.10"/><path d="M503 -160 L179 960 L827 960 Z" fill="#facc15" opacity="0.09"/><path d="M503 -160 L71 960 L935 960 Z" fill="#3f3f46" opacity="0.14"/><path d="M503 -160 L-37 960 L1043 960 Z" fill="#facc15" opacity="0.12"/><path d="M503 -160 L-145 960 L1151 960 Z" fill="#3f3f46" opacity="0.12"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="508" cy="574" rx="380" ry="150" fill="#facc15" opacity=".18" filter="url(#soften)"/>
+
+  <g transform="translate(600 400) rotate(-13.9) scale(-1.290 1.168) translate(-600 -400)"><g>
+        <path d="M184 150 L54 620 L122 620 Z" fill="#facc15" opacity="0.14"/><path d="M346 150 L216 620 L284 620 Z" fill="#3f3f46" opacity="0.22"/><path d="M508 150 L378 620 L446 620 Z" fill="#facc15" opacity="0.21"/><path d="M670 150 L540 620 L608 620 Z" fill="#3f3f46" opacity="0.17"/><path d="M832 150 L702 620 L770 620 Z" fill="#facc15" opacity="0.17"/><path d="M994 150 L864 620 L932 620 Z" fill="#3f3f46" opacity="0.18"/>
+        <ellipse cx="614" cy="470" rx="447" ry="150" fill="#facc15" opacity=".12" filter="url(#soften)"/>
+        <path d="M170 470 C170 366 320 300 600 300 C880 300 1030 366 1030 470" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="3"/>
+        <path d="M140 500 C140 380 320 306 600 306 C880 306 1060 380 1060 500" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="2"/>
+        <rect x="240" y="430" width="720" height="16" rx="4" fill="rgba(255,255,255,0.120)"/><rect x="295" y="448" width="610" height="16" rx="4" fill="rgba(255,255,255,0.095)"/><rect x="350" y="466" width="500" height="16" rx="4" fill="rgba(255,255,255,0.070)"/><rect x="405" y="484" width="390" height="16" rx="4" fill="rgba(255,255,255,0.045)"/>
+        <circle cx="457" cy="438" r="3.7" fill="#fff" opacity="0.06"/><circle cx="522" cy="481" r="4.4" fill="#fff" opacity="0.10"/><circle cx="792" cy="513" r="8.1" fill="#fff" opacity="0.23"/><circle cx="1012" cy="481" r="8.8" fill="#fff" opacity="0.22"/><circle cx="955" cy="447" r="9.8" fill="#fff" opacity="0.16"/><circle cx="553" cy="507" r="9.8" fill="#fff" opacity="0.19"/><circle cx="463" cy="520" r="8.1" fill="#fff" opacity="0.15"/><circle cx="478" cy="516" r="9.2" fill="#fff" opacity="0.21"/><circle cx="742" cy="452" r="5.7" fill="#fff" opacity="0.11"/><circle cx="591" cy="439" r="8.2" fill="#fff" opacity="0.21"/><circle cx="957" cy="522" r="8.9" fill="#fff" opacity="0.05"/><circle cx="854" cy="475" r="3.4" fill="#fff" opacity="0.15"/><circle cx="965" cy="499" r="3.0" fill="#fff" opacity="0.19"/><circle cx="805" cy="502" r="6.6" fill="#fff" opacity="0.07"/><circle cx="812" cy="484" r="5.7" fill="#fff" opacity="0.21"/><circle cx="784" cy="510" r="6.6" fill="#fff" opacity="0.12"/><circle cx="265" cy="432" r="3.9" fill="#fff" opacity="0.09"/><circle cx="722" cy="432" r="8.2" fill="#fff" opacity="0.10"/><circle cx="547" cy="512" r="7.0" fill="#fff" opacity="0.16"/><circle cx="825" cy="500" r="4.2" fill="#fff" opacity="0.09"/><circle cx="805" cy="477" r="8.9" fill="#fff" opacity="0.23"/><circle cx="725" cy="438" r="9.0" fill="#fff" opacity="0.16"/><circle cx="614" cy="489" r="5.1" fill="#fff" opacity="0.19"/><circle cx="922" cy="517" r="8.6" fill="#fff" opacity="0.13"/><circle cx="908" cy="523" r="3.5" fill="#fff" opacity="0.23"/><circle cx="781" cy="472" r="7.6" fill="#fff" opacity="0.19"/><circle cx="302" cy="472" r="7.3" fill="#fff" opacity="0.09"/><circle cx="330" cy="453" r="3.1" fill="#fff" opacity="0.12"/><circle cx="398" cy="508" r="6.4" fill="#fff" opacity="0.20"/><circle cx="1011" cy="446" r="7.2" fill="#fff" opacity="0.11"/><circle cx="277" cy="462" r="8.1" fill="#fff" opacity="0.09"/><circle cx="339" cy="446" r="5.6" fill="#fff" opacity="0.06"/><circle cx="351" cy="430" r="4.5" fill="#fff" opacity="0.24"/><circle cx="259" cy="514" r="4.4" fill="#fff" opacity="0.18"/><circle cx="268" cy="440" r="8.6" fill="#fff" opacity="0.16"/><circle cx="198" cy="431" r="8.7" fill="#fff" opacity="0.15"/><circle cx="459" cy="520" r="9.1" fill="#fff" opacity="0.06"/><circle cx="799" cy="505" r="7.8" fill="#fff" opacity="0.12"/><circle cx="405" cy="487" r="9.3" fill="#fff" opacity="0.13"/><circle cx="725" cy="452" r="4.0" fill="#fff" opacity="0.17"/><circle cx="662" cy="476" r="4.5" fill="#fff" opacity="0.20"/><circle cx="998" cy="492" r="9.5" fill="#fff" opacity="0.06"/><circle cx="245" cy="500" r="3.0" fill="#fff" opacity="0.17"/><circle cx="457" cy="433" r="3.8" fill="#fff" opacity="0.12"/>
+        <g transform="translate(614,210) scale(0.99)">
+          <path d="M-78 -44 H78 V-6 C78 26 44 52 0 62 C-44 52 -78 26 -78 -6 Z" fill="#facc15" opacity=".92"/>
+          <path d="M-78 -44 H78 V-6 C78 26 44 52 0 62 C-44 52 -78 26 -78 -6 Z" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="3"/>
+          <path d="M-52 -44 C-30 -76 30 -76 52 -44" fill="none" stroke="#3f3f46" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="0" cy="-2" r="20" fill="rgba(9,14,10,.6)" stroke="rgba(255,255,255,.5)" stroke-width="2"/>
+        </g>
+        <circle cx="365" cy="657" r="30" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.4)" stroke-width="2"/>
+        <path d="M365 637 l16 12 -6 20 -20 0 -6 -20 z" fill="#3f3f46" opacity=".7"/>
+      </g></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="360" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#facc15"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">FUTBOL MATCHDAY &amp; POSTER</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Kırmızı Kart &amp; Tartışma — Dramatik</tspan><tspan x="60" y="628.5">Editöryel</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#facc15"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · ORTA</text>
+    <text x="794" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">KIRMIZI KART  ·  HAKEM</text>
+  </g>
+</svg>

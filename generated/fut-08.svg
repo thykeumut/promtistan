@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Futbolcu Takas Kartı — Koleksiyon Kartı Estetiği">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(119 .5 .5)">
+      <stop offset="0" stop-color="#16220f"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#f8fafc" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#f8fafc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <path d="M-80 653 C336 459 744 847 1280 694 L1280 764 C744 917 336 529 -80 723 Z" fill="#f8fafc" opacity="0.11"/><path d="M-80 450 C336 296 744 604 1280 454 L1280 524 C744 674 336 366 -80 520 Z" fill="#0ea5e9" opacity="0.13"/><path d="M-80 248 C336 73 744 424 1280 183 L1280 253 C744 494 336 143 -80 318 Z" fill="#f8fafc" opacity="0.08"/><path d="M-80 267 C336 155 744 378 1280 385 L1280 455 C744 448 336 225 -80 337 Z" fill="#0ea5e9" opacity="0.10"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="676" cy="579" rx="380" ry="150" fill="#0ea5e9" opacity=".18" filter="url(#soften)"/>
+
+  <g transform="translate(600 400) rotate(-10.4) scale(1.152 1.089) translate(-600 -400)"><g>
+        <path d="M176 150 L46 620 L114 620 Z" fill="#0ea5e9" opacity="0.22"/><path d="M444 150 L314 620 L382 620 Z" fill="#f8fafc" opacity="0.23"/><path d="M712 150 L582 620 L650 620 Z" fill="#0ea5e9" opacity="0.24"/><path d="M980 150 L850 620 L918 620 Z" fill="#f8fafc" opacity="0.16"/>
+        <ellipse cx="606" cy="470" rx="460" ry="150" fill="#0ea5e9" opacity=".12" filter="url(#soften)"/>
+        <path d="M170 470 C170 366 320 300 600 300 C880 300 1030 366 1030 470" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="3"/>
+        <path d="M140 500 C140 380 320 306 600 306 C880 306 1060 380 1060 500" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="2"/>
+        <rect x="240" y="430" width="720" height="16" rx="4" fill="rgba(255,255,255,0.120)"/><rect x="295" y="448" width="610" height="16" rx="4" fill="rgba(255,255,255,0.095)"/><rect x="350" y="466" width="500" height="16" rx="4" fill="rgba(255,255,255,0.070)"/>
+        <circle cx="364" cy="430" r="5.5" fill="#fff" opacity="0.18"/><circle cx="883" cy="469" r="4.6" fill="#fff" opacity="0.20"/><circle cx="973" cy="453" r="9.4" fill="#fff" opacity="0.21"/><circle cx="862" cy="496" r="8.7" fill="#fff" opacity="0.17"/><circle cx="283" cy="493" r="5.3" fill="#fff" opacity="0.22"/><circle cx="643" cy="494" r="7.0" fill="#fff" opacity="0.11"/><circle cx="786" cy="493" r="3.2" fill="#fff" opacity="0.15"/><circle cx="466" cy="441" r="4.2" fill="#fff" opacity="0.13"/><circle cx="506" cy="514" r="5.3" fill="#fff" opacity="0.10"/><circle cx="560" cy="502" r="3.5" fill="#fff" opacity="0.08"/><circle cx="973" cy="502" r="6.3" fill="#fff" opacity="0.25"/><circle cx="989" cy="496" r="4.8" fill="#fff" opacity="0.15"/><circle cx="427" cy="479" r="8.9" fill="#fff" opacity="0.15"/><circle cx="970" cy="524" r="5.3" fill="#fff" opacity="0.18"/><circle cx="329" cy="445" r="4.7" fill="#fff" opacity="0.16"/><circle cx="626" cy="495" r="8.1" fill="#fff" opacity="0.15"/><circle cx="514" cy="464" r="8.8" fill="#fff" opacity="0.09"/><circle cx="627" cy="477" r="4.5" fill="#fff" opacity="0.06"/><circle cx="715" cy="455" r="5.5" fill="#fff" opacity="0.18"/><circle cx="924" cy="442" r="8.8" fill="#fff" opacity="0.12"/><circle cx="638" cy="509" r="7.6" fill="#fff" opacity="0.06"/><circle cx="379" cy="462" r="6.7" fill="#fff" opacity="0.16"/><circle cx="992" cy="430" r="8.5" fill="#fff" opacity="0.10"/><circle cx="698" cy="507" r="9.2" fill="#fff" opacity="0.21"/><circle cx="493" cy="460" r="8.9" fill="#fff" opacity="0.20"/><circle cx="327" cy="524" r="7.5" fill="#fff" opacity="0.07"/><circle cx="320" cy="510" r="9.1" fill="#fff" opacity="0.17"/><circle cx="502" cy="521" r="6.4" fill="#fff" opacity="0.09"/><circle cx="766" cy="461" r="5.9" fill="#fff" opacity="0.08"/><circle cx="928" cy="494" r="7.8" fill="#fff" opacity="0.06"/><circle cx="764" cy="453" r="4.2" fill="#fff" opacity="0.17"/><circle cx="404" cy="504" r="7.9" fill="#fff" opacity="0.18"/><circle cx="999" cy="520" r="4.2" fill="#fff" opacity="0.21"/><circle cx="527" cy="466" r="9.1" fill="#fff" opacity="0.15"/><circle cx="598" cy="449" r="9.5" fill="#fff" opacity="0.14"/><circle cx="909" cy="460" r="9.0" fill="#fff" opacity="0.20"/><circle cx="863" cy="439" r="6.5" fill="#fff" opacity="0.22"/><circle cx="406" cy="508" r="3.2" fill="#fff" opacity="0.11"/><circle cx="974" cy="499" r="8.4" fill="#fff" opacity="0.22"/><circle cx="882" cy="499" r="9.0" fill="#fff" opacity="0.20"/><circle cx="483" cy="471" r="4.8" fill="#fff" opacity="0.20"/><circle cx="184" cy="471" r="6.9" fill="#fff" opacity="0.16"/><circle cx="383" cy="480" r="6.8" fill="#fff" opacity="0.15"/><circle cx="906" cy="505" r="6.3" fill="#fff" opacity="0.17"/><circle cx="645" cy="507" r="9.3" fill="#fff" opacity="0.25"/><circle cx="1018" cy="482" r="4.9" fill="#fff" opacity="0.10"/><circle cx="700" cy="431" r="7.2" fill="#fff" opacity="0.23"/><circle cx="804" cy="466" r="5.8" fill="#fff" opacity="0.05"/><circle cx="487" cy="525" r="8.2" fill="#fff" opacity="0.09"/><circle cx="251" cy="520" r="8.5" fill="#fff" opacity="0.08"/><circle cx="416" cy="446" r="5.2" fill="#fff" opacity="0.11"/><circle cx="515" cy="494" r="4.0" fill="#fff" opacity="0.22"/><circle cx="589" cy="459" r="3.1" fill="#fff" opacity="0.19"/><circle cx="679" cy="498" r="8.7" fill="#fff" opacity="0.12"/><circle cx="882" cy="525" r="6.3" fill="#fff" opacity="0.11"/><circle cx="710" cy="469" r="7.2" fill="#fff" opacity="0.05"/><circle cx="782" cy="510" r="5.7" fill="#fff" opacity="0.24"/><circle cx="216" cy="482" r="7.5" fill="#fff" opacity="0.17"/><circle cx="882" cy="434" r="6.9" fill="#fff" opacity="0.23"/><circle cx="964" cy="456" r="6.0" fill="#fff" opacity="0.17"/><circle cx="263" cy="499" r="4.1" fill="#fff" opacity="0.11"/><circle cx="968" cy="454" r="9.6" fill="#fff" opacity="0.18"/><circle cx="736" cy="511" r="9.9" fill="#fff" opacity="0.10"/>
+        <g transform="translate(606,232) scale(0.92)">
+          <path d="M-78 -44 H78 V-6 C78 26 44 52 0 62 C-44 52 -78 26 -78 -6 Z" fill="#0ea5e9" opacity=".92"/>
+          <path d="M-78 -44 H78 V-6 C78 26 44 52 0 62 C-44 52 -78 26 -78 -6 Z" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="3"/>
+          <path d="M-52 -44 C-30 -76 30 -76 52 -44" fill="none" stroke="#f8fafc" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="0" cy="-2" r="20" fill="rgba(9,14,10,.6)" stroke="rgba(255,255,255,.5)" stroke-width="2"/>
+        </g>
+        <circle cx="754" cy="654" r="30" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.4)" stroke-width="2"/>
+        <path d="M754 634 l16 12 -6 20 -20 0 -6 -20 z" fill="#f8fafc" opacity=".7"/>
+      </g></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="360" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#0ea5e9"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">FUTBOL MATCHDAY &amp; POSTER</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Futbolcu Takas Kartı — Koleksiyon</tspan><tspan x="60" y="628.5">Kartı Estetiği</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#0ea5e9"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · ORTA</text>
+    <text x="716" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">KOLEKSIYON KARTI  ·  ALTIN VARAK</text>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Takım Kadro ve Diziliş Grafiği — Taktik Tahtası">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(133 .5 .5)">
+      <stop offset="0" stop-color="#16220f"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#22c55e" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#facc15" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <path d="M-80 536 C336 333 744 739 1280 521 L1280 591 C744 809 336 403 -80 606 Z" fill="#facc15" opacity="0.09"/><path d="M-80 482 C336 247 744 716 1280 500 L1280 570 C744 786 336 317 -80 552 Z" fill="#22c55e" opacity="0.17"/><path d="M-80 261 C336 168 744 355 1280 281 L1280 351 C744 425 336 238 -80 331 Z" fill="#facc15" opacity="0.10"/><path d="M-80 355 C336 111 744 598 1280 449 L1280 519 C744 668 336 181 -80 425 Z" fill="#22c55e" opacity="0.11"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="665" cy="652" rx="380" ry="150" fill="#22c55e" opacity=".18" filter="url(#soften)"/>
+
+  <g transform="translate(600 400) rotate(14.9) scale(1.251 1.020) translate(-600 -400)"><g>
+        <path d="M180 150 L50 620 L118 620 Z" fill="#22c55e" opacity="0.23"/><path d="M453 150 L323 620 L391 620 Z" fill="#facc15" opacity="0.20"/><path d="M726 150 L596 620 L664 620 Z" fill="#22c55e" opacity="0.17"/><path d="M999 150 L869 620 L937 620 Z" fill="#facc15" opacity="0.15"/>
+        <ellipse cx="610" cy="470" rx="403" ry="150" fill="#22c55e" opacity=".12" filter="url(#soften)"/>
+        <path d="M170 470 C170 366 320 300 600 300 C880 300 1030 366 1030 470" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="3"/>
+        <path d="M140 500 C140 380 320 306 600 306 C880 306 1060 380 1060 500" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="2"/>
+        <rect x="240" y="430" width="720" height="16" rx="4" fill="rgba(255,255,255,0.120)"/><rect x="295" y="448" width="610" height="16" rx="4" fill="rgba(255,255,255,0.095)"/><rect x="350" y="466" width="500" height="16" rx="4" fill="rgba(255,255,255,0.070)"/>
+        <circle cx="866" cy="477" r="3.1" fill="#fff" opacity="0.09"/><circle cx="997" cy="494" r="4.4" fill="#fff" opacity="0.24"/><circle cx="330" cy="460" r="6.6" fill="#fff" opacity="0.12"/><circle cx="901" cy="508" r="7.9" fill="#fff" opacity="0.20"/><circle cx="654" cy="441" r="8.5" fill="#fff" opacity="0.24"/><circle cx="533" cy="433" r="5.4" fill="#fff" opacity="0.21"/><circle cx="769" cy="432" r="6.7" fill="#fff" opacity="0.22"/><circle cx="562" cy="463" r="8.1" fill="#fff" opacity="0.20"/><circle cx="729" cy="516" r="5.2" fill="#fff" opacity="0.10"/><circle cx="226" cy="515" r="7.0" fill="#fff" opacity="0.15"/><circle cx="886" cy="451" r="8.1" fill="#fff" opacity="0.22"/><circle cx="640" cy="452" r="6.5" fill="#fff" opacity="0.15"/><circle cx="989" cy="474" r="5.8" fill="#fff" opacity="0.21"/><circle cx="424" cy="472" r="8.6" fill="#fff" opacity="0.11"/><circle cx="233" cy="503" r="4.3" fill="#fff" opacity="0.24"/><circle cx="186" cy="456" r="3.3" fill="#fff" opacity="0.08"/><circle cx="442" cy="456" r="4.6" fill="#fff" opacity="0.19"/><circle cx="320" cy="480" r="6.3" fill="#fff" opacity="0.13"/><circle cx="291" cy="444" r="8.1" fill="#fff" opacity="0.09"/><circle cx="273" cy="440" r="3.5" fill="#fff" opacity="0.10"/><circle cx="874" cy="444" r="6.1" fill="#fff" opacity="0.13"/><circle cx="943" cy="486" r="8.0" fill="#fff" opacity="0.05"/><circle cx="933" cy="460" r="7.1" fill="#fff" opacity="0.23"/><circle cx="829" cy="509" r="7.7" fill="#fff" opacity="0.07"/><circle cx="832" cy="464" r="5.8" fill="#fff" opacity="0.21"/><circle cx="591" cy="463" r="9.8" fill="#fff" opacity="0.09"/><circle cx="563" cy="472" r="5.0" fill="#fff" opacity="0.05"/><circle cx="813" cy="458" r="6.7" fill="#fff" opacity="0.07"/><circle cx="271" cy="460" r="4.7" fill="#fff" opacity="0.07"/><circle cx="213" cy="430" r="4.1" fill="#fff" opacity="0.10"/><circle cx="457" cy="525" r="5.8" fill="#fff" opacity="0.24"/><circle cx="339" cy="450" r="4.1" fill="#fff" opacity="0.24"/><circle cx="815" cy="441" r="3.2" fill="#fff" opacity="0.13"/><circle cx="580" cy="520" r="4.8" fill="#fff" opacity="0.16"/><circle cx="845" cy="501" r="3.7" fill="#fff" opacity="0.21"/><circle cx="664" cy="499" r="8.9" fill="#fff" opacity="0.14"/><circle cx="1018" cy="474" r="3.1" fill="#fff" opacity="0.07"/><circle cx="492" cy="435" r="5.9" fill="#fff" opacity="0.24"/><circle cx="810" cy="466" r="3.7" fill="#fff" opacity="0.22"/><circle cx="201" cy="454" r="3.5" fill="#fff" opacity="0.06"/><circle cx="499" cy="513" r="6.0" fill="#fff" opacity="0.17"/><circle cx="629" cy="454" r="9.3" fill="#fff" opacity="0.08"/><circle cx="771" cy="519" r="8.5" fill="#fff" opacity="0.19"/><circle cx="304" cy="478" r="6.5" fill="#fff" opacity="0.16"/><circle cx="898" cy="460" r="8.0" fill="#fff" opacity="0.24"/><circle cx="473" cy="431" r="3.3" fill="#fff" opacity="0.19"/><circle cx="197" cy="446" r="9.1" fill="#fff" opacity="0.18"/><circle cx="771" cy="469" r="5.1" fill="#fff" opacity="0.07"/><circle cx="743" cy="517" r="7.8" fill="#fff" opacity="0.12"/><circle cx="195" cy="452" r="3.5" fill="#fff" opacity="0.22"/><circle cx="547" cy="474" r="8.8" fill="#fff" opacity="0.13"/><circle cx="519" cy="502" r="8.8" fill="#fff" opacity="0.17"/><circle cx="600" cy="479" r="9.8" fill="#fff" opacity="0.13"/><circle cx="676" cy="522" r="3.9" fill="#fff" opacity="0.21"/><circle cx="305" cy="512" r="4.0" fill="#fff" opacity="0.12"/><circle cx="725" cy="467" r="8.7" fill="#fff" opacity="0.23"/><circle cx="836" cy="460" r="3.3" fill="#fff" opacity="0.19"/><circle cx="591" cy="435" r="4.0" fill="#fff" opacity="0.23"/><circle cx="302" cy="490" r="6.8" fill="#fff" opacity="0.09"/><circle cx="843" cy="492" r="5.3" fill="#fff" opacity="0.07"/><circle cx="699" cy="454" r="4.3" fill="#fff" opacity="0.16"/><circle cx="707" cy="477" r="3.2" fill="#fff" opacity="0.08"/><circle cx="399" cy="505" r="5.5" fill="#fff" opacity="0.12"/><circle cx="254" cy="475" r="7.5" fill="#fff" opacity="0.16"/><circle cx="777" cy="478" r="3.9" fill="#fff" opacity="0.07"/><circle cx="291" cy="522" r="7.2" fill="#fff" opacity="0.08"/><circle cx="927" cy="454" r="9.3" fill="#fff" opacity="0.16"/><circle cx="796" cy="470" r="3.6" fill="#fff" opacity="0.23"/><circle cx="860" cy="433" r="6.7" fill="#fff" opacity="0.24"/><circle cx="436" cy="486" r="7.9" fill="#fff" opacity="0.07"/><circle cx="837" cy="461" r="9.9" fill="#fff" opacity="0.22"/>
+        <g transform="translate(610,170) scale(1.16)">
+          <path d="M-78 -44 H78 V-6 C78 26 44 52 0 62 C-44 52 -78 26 -78 -6 Z" fill="#22c55e" opacity=".92"/>
+          <path d="M-78 -44 H78 V-6 C78 26 44 52 0 62 C-44 52 -78 26 -78 -6 Z" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="3"/>
+          <path d="M-52 -44 C-30 -76 30 -76 52 -44" fill="none" stroke="#facc15" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="0" cy="-2" r="20" fill="rgba(9,14,10,.6)" stroke="rgba(255,255,255,.5)" stroke-width="2"/>
+        </g>
+        <circle cx="320" cy="653" r="30" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.4)" stroke-width="2"/>
+        <path d="M320 633 l16 12 -6 20 -20 0 -6 -20 z" fill="#facc15" opacity=".7"/>
+      </g></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="360" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#22c55e"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">FUTBOL MATCHDAY &amp; POSTER</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Takım Kadro ve Diziliş Grafiği —</tspan><tspan x="60" y="628.5">Taktik Tahtası</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#22c55e"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · ORTA</text>
+    <text x="854" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">KADRO  ·  DIZILIŞ</text>
+  </g>
+</svg>

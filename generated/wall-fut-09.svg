@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Kupa ve Altın Işık Duvar Kağıdı — Lüks Siyah">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1" gradientTransform="rotate(131 .5 .5)">
+      <stop offset="0" stop-color="#0d1a2a"/>
+      <stop offset="1" stop-color="#0b0f10"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="26%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="12%" r="58%">
+      <stop offset="0" stop-color="#0c1a2b" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#0c1a2b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#05070a" stop-opacity=".92"/>
+      <stop offset=".55" stop-color="#05070a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 H0 V60" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    </filter>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#base)"/>
+  <polygon points="182,670 296,802 175,928 62,795" fill="#0c1a2b" opacity="0.15"/><polygon points="920,235 1075,88 1236,228 1081,375" fill="#7dd3fc" opacity="0.06"/><polygon points="466,217 635,82 785,237 616,371" fill="#0c1a2b" opacity="0.16"/><polygon points="736,493 666,441 711,366 781,418" fill="#7dd3fc" opacity="0.15"/><polygon points="794,313 693,210 786,100 887,203" fill="#0c1a2b" opacity="0.12"/><polygon points="167,244 238,279 209,354 138,318" fill="#7dd3fc" opacity="0.06"/><polygon points="472,397 380,428 340,339 432,308" fill="#0c1a2b" opacity="0.12"/><polygon points="136,591 192,529 260,578 204,641" fill="#7dd3fc" opacity="0.15"/><polygon points="622,120 686,153 658,220 594,187" fill="#0c1a2b" opacity="0.06"/><polygon points="822,540 692,477 741,341 872,404" fill="#7dd3fc" opacity="0.13"/><polygon points="400,751 282,892 130,788 249,647" fill="#0c1a2b" opacity="0.17"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect width="1200" height="800" fill="url(#glowA)"/>
+  <rect width="1200" height="800" fill="url(#glowB)"/>
+  <ellipse cx="484" cy="612" rx="380" ry="150" fill="#7dd3fc" opacity=".18" filter="url(#soften)"/>
+
+  <g transform="translate(600 400) rotate(-4.0) scale(1.091 1.048) translate(-600 -400)"><g>
+        <rect x="163" y="196" width="955" height="435" rx="26" fill="rgba(6,12,22,.72)" stroke="rgba(255,255,255,.42)" stroke-width="3"/>
+        <rect x="189" y="222" width="903" height="383" rx="16" fill="rgba(4,9,18,.55)"/>
+        <g fill="#7dd3fc" opacity=".5"><path d="M163 570 C411 414 640 466 869 370 L1117 370 L1117 631 Z"</g>
+        <circle cx="335" cy="318" r="74" fill="#0c1a2b" opacity=".3"/>
+        <rect x="223" y="250" width="38" height="38" rx="10" fill="#fff" opacity="0.22"/><rect x="287" y="250" width="38" height="38" rx="10" fill="#fff" opacity="0.17"/><rect x="223" y="312" width="38" height="38" rx="10" fill="#fff" opacity="0.19"/><rect x="287" y="312" width="38" height="38" rx="10" fill="#fff" opacity="0.27"/>
+        <rect x="688" y="286" width="344" height="203" rx="14" fill="rgba(10,20,34,.6)" stroke="rgba(255,255,255,.3)" stroke-width="2"/><rect x="710" y="340" width="344" height="167" rx="14" fill="rgba(10,20,34,.6)" stroke="rgba(255,255,255,.3)" stroke-width="2"/><rect x="732" y="394" width="344" height="167" rx="14" fill="rgba(10,20,34,.6)" stroke="rgba(255,255,255,.3)" stroke-width="2"/>
+        <rect x="520" y="653" width="160" height="20" rx="10" fill="rgba(255,255,255,.28)"/>
+        <rect x="450" y="673" width="300" height="12" rx="6" fill="rgba(255,255,255,.16)"/>
+      </g></g>
+
+  <rect width="1200" height="800" fill="url(#scrim)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".07"/>
+
+  <g transform="translate(60,58)">
+    <rect width="488" height="46" rx="23" fill="rgba(255,255,255,.14)" stroke="rgba(255,255,255,.35)"/>
+    <circle cx="26" cy="23" r="6" fill="#7dd3fc"/>
+    <text x="44" y="30" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff" letter-spacing="1.2">BILGISAYAR &amp; TELEFON DUVAR KAĞIDI</text>
+  </g>
+
+  <text x="60" y="108" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="17" font-weight="600" fill="rgba(255,255,255,.62)" letter-spacing="3">PROMPTİSTAN · ÜRETİM REÇETESİ</text>
+
+  <text font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="58" font-weight="800" fill="#ffffff"><tspan x="60" y="563.5">Kupa ve Altın Işık Duvar Kağıdı —</tspan><tspan x="60" y="628.5">Lüks Siyah</tspan></text>
+
+  <g transform="translate(60,738)">
+    <rect width="6" height="26" rx="3" fill="#7dd3fc"/>
+    <text x="22" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="700" fill="rgba(255,255,255,.78)" letter-spacing="2">SEVİYE · İLERI DÜZEY</text>
+    <text x="810" y="20" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,.5)">DUVAR KAĞIDI  ·  KUPA</text>
+  </g>
+</svg>
